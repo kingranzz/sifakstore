@@ -1,0 +1,20 @@
+{
+  "name": "reybot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index",
+    "qr": "rm -rf ./data/auth ./data/store.json && node index",
+    "code": "rm -rf ./data/auth ./data/store.json && node index --code"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.5",
+    "node-webpmux": "^3.1.8",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
